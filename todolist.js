@@ -1,4 +1,6 @@
 window.alert("Nyan Nyan!");
+
+ /* Include the padding and border in an element's total width and height */
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -53,4 +55,4 @@ function newElement() {
       div.style.display = "none";
     }
   }
-} 
+}
