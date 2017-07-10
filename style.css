@@ -4,6 +4,10 @@ body
 	font-family: "Open", sans-serif;
 }
 
+body li
+{
+	list-style: none;
+}
 .titre
 {
 	text-align: center;
@@ -17,14 +21,15 @@ body
 .addtodo
 {
 	width: 150px;
-	max-width: 250px;
-	height: 50px;
+	height: 100%;
 	font-size: 25px;
 }
 
 .buttonlist
 {
 	width: 100px;
-	height: 50px;
-	font-size: 25px;
+	height: 100%;
+	background-color: transparent;
+	border: 2px dashed black;
+	margin: 1px;
 }
